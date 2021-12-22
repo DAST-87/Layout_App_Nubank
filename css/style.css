@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(129, 6, 185);
+    padding: 0px;
+    margin: 0px;
+}
+
+.cel{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    
+    
+}
+
+.cel figure img{
+    height: 700px;
+    width: auto;
+    background-color: yellow;
+}
+figure{
+    margin: 0px;
+}
