@@ -22,6 +22,13 @@ body{
 figure{
     margin: 0px;
 }
+
+.informacoes{
+    
+    position: absolute;
+    top: 250px;
+    z-index: 3;
+}
 .fundo_branco{
     background-color: white;
     width: 320px;
@@ -33,7 +40,7 @@ figure{
     
 }
 
-.fundo_branco_conta{
+.titulo_conta{
     padding: 0 30px 0 30px;
     display: flex;
     justify-content: space-between;
@@ -41,16 +48,126 @@ figure{
     font-family: Gotham;
     letter-spacing: -1px;
     background-color: ;
+    width: 260px;
 }
-.fundo_branco_conta h3{
+.titulo_conta h3{
     font-weight: 500;
 }
 
-.fundo_branco_valor{
+.titulo_valor{
     margin-top: -20px;
     padding: 0 30px 0 30px;
     font-family: Gotham;
     letter-spacing: -2px;
     font-weight: 700;
     background-color: ;
+    
 }
+.titulo_valor a{
+    text-decoration: none;
+    color: black;
+}
+.titulo_valor a:hover{
+    color: blueviolet;
+}
+.bolinhas{
+    padding: 0 30px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: ;
+    text-align: center;
+    
+    
+}
+.bol_1{
+    background-color: ;
+    font-family: Gotham;
+    font-size: 12px;
+    
+    
+    
+}
+.ico_pix{
+    background-color: silver;
+    padding: 20px;
+    border-radius: 100px;
+    font-size: 14px;
+    
+    
+}
+
+.ico_pix a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.bol_2{
+    background-color: ;
+    font-family: Gotham;
+    font-size: 12px;
+    
+    
+    
+}
+.ico_pagar{
+    background-color: silver;
+    padding: 20px;
+    border-radius: 100px;
+    font-size: 14px;
+    
+    
+}
+
+.ico_pagar a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.bol_3{
+    background-color: ;
+    font-family: Gotham;
+    font-size: 12px;
+    
+    
+    
+}
+.ico_transf{
+    background-color: silver;
+    padding: 20px;
+    border-radius: 100px;
+    font-size: 14px;
+    
+    
+}
+
+.ico_transf a{
+    text-decoration: none;
+    color: black;
+    
+}
+.bol_4{
+    background-color:;
+    font-family: Gotham;
+    font-size: 12px;
+    
+    
+}
+.ico_depos{
+    background-color: silver;
+    padding: 20px;
+    border-radius: 100px;
+    font-size: 14px;
+    
+    
+}
+
+.ico_depos a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+
