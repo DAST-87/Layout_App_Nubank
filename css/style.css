@@ -22,6 +22,40 @@ body{
 figure{
     margin: 0px;
 }
+.topo{
+    position: absolute;
+    z-index: 3;
+    top: 150px;
+    display: flex;
+    justify-content: space-between;
+    background-color:;
+    width: 250px;
+    align-items: center;
+}
+.ico_user i{
+    color: white;
+    background-color: rgba(172, 20, 243, 0.658);
+    padding: 12px;
+    border-radius: 50px;
+}
+.icones_topo i{
+    color: white;
+    padding: 5px;
+
+}
+.topo_nome{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    top: 180px;
+    width: 250px;
+    padding-top: 17px;
+}
+.topo_nome h4{
+    font-family: Gotham;
+    font-weight: 500;
+    font-size: 13px;
+}
 
 .informacoes{
     
@@ -32,8 +66,8 @@ figure{
 .fundo_branco{
     background-color: white;
     width: 320px;
-    height: 550px;
-    top: 230px;
+    height: 530px;
+    top: 250px;
     position: absolute;
     z-index: 1;
     border-radius: 0 0 30px 30px;
@@ -87,7 +121,7 @@ figure{
     
     
 }
-.ico_pix i{
+.ico_pix span{
     background-color: rgba(192, 192, 192, 0.521);
     padding: 20px;
     border-radius: 100px;
@@ -96,10 +130,14 @@ figure{
     
 }
 
-.ico_pix a{
+.ico_pix  a{
     text-decoration: none;
     color: black;
     
+}
+.ico_pix span:hover{
+    background-color: blueviolet;
+    color: white;
 }
 
 .bol_2{
@@ -124,6 +162,10 @@ figure{
     color: black;
     
 }
+.ico_pagar i:hover{
+    background-color: blueviolet;
+    color: white;
+}
 
 .bol_3{
     background-color: ;
@@ -147,6 +189,10 @@ figure{
     color: black;
     
 }
+.ico_transf i:hover{
+    background-color: blueviolet;
+    color: white;
+}
 .bol_4{
     background-color:;
     font-family: Gotham;
@@ -168,6 +214,11 @@ figure{
     color: black;
     
 }
+.ico_depos i:hover{
+    background-color: blueviolet;
+    color: white;
+
+}
 .cartao_credito{
     background-color: ;
     padding: 10px 30px 0 30px;
@@ -184,6 +235,10 @@ figure{
     font-size: 12px;
     color: black;
     margin-left: 5px;
+}
+.cartao_credito_content a:hover{
+    color: blueviolet;
+
 }
 
 
