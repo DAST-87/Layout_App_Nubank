@@ -87,8 +87,8 @@ figure{
     
     
 }
-.ico_pix{
-    background-color: silver;
+.ico_pix i{
+    background-color: rgba(192, 192, 192, 0.521);
     padding: 20px;
     border-radius: 100px;
     font-size: 14px;
@@ -110,8 +110,8 @@ figure{
     
     
 }
-.ico_pagar{
-    background-color: silver;
+.ico_pagar i{
+    background-color: rgba(192, 192, 192, 0.521);
     padding: 20px;
     border-radius: 100px;
     font-size: 14px;
@@ -133,8 +133,8 @@ figure{
     
     
 }
-.ico_transf{
-    background-color: silver;
+.ico_transf i{
+    background-color: rgba(192, 192, 192, 0.521);
     padding: 20px;
     border-radius: 100px;
     font-size: 14px;
@@ -154,8 +154,8 @@ figure{
     
     
 }
-.ico_depos{
-    background-color: silver;
+.ico_depos i{
+    background-color: rgba(192, 192, 192, 0.521);
     padding: 20px;
     border-radius: 100px;
     font-size: 14px;
@@ -167,6 +167,23 @@ figure{
     text-decoration: none;
     color: black;
     
+}
+.cartao_credito{
+    background-color: ;
+    padding: 10px 30px 0 30px;
+}
+.cartao_credito_content{
+    background-color: rgba(192, 192, 192, 0.521);
+    padding: 10px;
+    border-radius: 8px;
+}
+.cartao_credito_content a{
+    text-decoration: none;
+    font-family: Gotham;
+    font-weight: 600;
+    font-size: 12px;
+    color: black;
+    margin-left: 5px;
 }
 
 
