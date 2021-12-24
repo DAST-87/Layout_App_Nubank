@@ -3,9 +3,13 @@ body{
     padding: 0px;
     margin: 0px;
 }
+section{
+    display: flex;
+    justify-content: center;
+}
 
 .cel{
-    background-color: rgb(129, 6, 185);
+    background-color: rgb(185, 113, 6);
     display: flex;
     justify-content: center;
     padding-top: 100px;
@@ -122,7 +126,7 @@ figure{
     
 }
 .ico_pix span{
-    background-color: rgba(192, 192, 192, 0.521);
+    background-color: rgba(192, 192, 192, 0.2);
     padding: 20px;
     border-radius: 100px;
     font-size: 14px;
@@ -149,7 +153,7 @@ figure{
     
 }
 .ico_pagar i{
-    background-color: rgba(192, 192, 192, 0.521);
+    background-color: rgba(192, 192, 192, 0.2);
     padding: 20px;
     border-radius: 100px;
     font-size: 14px;
@@ -176,7 +180,7 @@ figure{
     
 }
 .ico_transf i{
-    background-color: rgba(192, 192, 192, 0.521);
+    background-color: rgba(192, 192, 192, 0.2);
     padding: 20px;
     border-radius: 100px;
     font-size: 14px;
@@ -201,7 +205,7 @@ figure{
     
 }
 .ico_depos i{
-    background-color: rgba(192, 192, 192, 0.521);
+    background-color: rgba(192, 192, 192, 0.2);
     padding: 20px;
     border-radius: 100px;
     font-size: 14px;
@@ -221,10 +225,10 @@ figure{
 }
 .cartao_credito{
     background-color: ;
-    padding: 10px 30px 0 30px;
+    padding: 10px 30px 10px 30px;
 }
 .cartao_credito_content{
-    background-color: rgba(192, 192, 192, 0.521);
+    background-color: rgba(192, 192, 192, 0.2);
     padding: 10px;
     border-radius: 8px;
 }
@@ -240,6 +244,19 @@ figure{
     color: blueviolet;
 
 }
-
+.linha{
+    background-color: rgba(192, 192, 192, 0.4);
+    padding-top: 1px;
+}
+.texto{
+    background-color: salmon;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+.texto_titulo h1{
+    color: white;
+    font-family: Gotham;
+    font-size: 50px;
+}
 
 
