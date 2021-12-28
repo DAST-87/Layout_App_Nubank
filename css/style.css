@@ -9,7 +9,8 @@ section{
 }
 
 .cel{
-    background-color: rgb(185, 113, 6);
+    background-color: rgb(129, 6, 185);
+    padding: 0px;
     display: flex;
     justify-content: center;
     padding-top: 100px;
@@ -249,7 +250,8 @@ figure{
     padding-top: 1px;
 }
 .texto{
-    background-color: salmon;
+    background-color: rgb(129, 6, 185);
+    padding: 0px; 
     padding-top: 100px;
     padding-left: 30px;
 }
@@ -257,6 +259,22 @@ figure{
     color: white;
     font-family: Gotham;
     font-size: 50px;
+    line-height: 45px;
+    letter-spacing: -2px;
+    display: flex;
+    
 }
-
+.botao{
+    width: 250px;
+    border: solid 2px white;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+.botao a{
+    text-decoration: none;
+    color: white;
+    font-family: Gotham;
+    
+}
 
