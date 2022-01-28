@@ -6,6 +6,11 @@ body{
 section{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+   
+    
+    
+    
 }
 
 .cel{
@@ -249,6 +254,9 @@ figure{
     background-color: rgba(192, 192, 192, 0.4);
     padding-top: 1px;
 }
+
+/*Coluna do texto e botão*/
+
 .texto{
     background-color: rgb(129, 6, 185);
     padding: 0px; 
@@ -277,4 +285,5 @@ figure{
     font-family: Gotham;
     
 }
+
 
